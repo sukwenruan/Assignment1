@@ -23,6 +23,7 @@ const products = require(__dirname + "/products.json");
 
 // Define a route for handling a GET request to a path that matches "./products.js"
 app.get('/products.js', function(request, response, next) {
+    
 	// Send the response as JS
 	response.type('.js');
 	

@@ -52,7 +52,6 @@ function isNonNegInt(q, returnErrors = false) {
 function validateTextbox(textBox) {
     entry = String(textBox.value);
 
-
     //if user enters a value with a 0 in front, it will be converted to a number without it 
     if (entry.charAt(0) == 0) {
         textBox.value = Number(entry.slice(0, 0) + entry.slice(1, entry.length));
@@ -76,7 +75,6 @@ function validateTextbox(textBox) {
 
 // get paramters from URL
 let params = (new URL(document.location)).searchParams;
-
 
 //if there's an error from server-side validation, display error message and make user retry with a valid input against isNonNegInt
 //window.onload makes the code run after page is fully loaded

@@ -9,7 +9,6 @@ let extended_price = 0;
 let shipping = 0;
 let total = 0;
 
-
 let quantity = [];
 
 //loop through products to retrieve quantities from URL
@@ -40,7 +39,6 @@ quantity.forEach((qty, i) => {
         </tr>
     `;
 });
-
 
 //compute tax
 let tax_rate = 0.0575;
