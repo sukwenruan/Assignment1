@@ -117,7 +117,6 @@ function isNonNegInt(q, returnErrors = false) {
         } 
     }
     return (returnErrors ? errors : (errors.length == 0));
-
 };
 
 // Route all other GET requests to serve static files from a directory named "public"
