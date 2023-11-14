@@ -1,6 +1,5 @@
 //products_display.js (referenced Vy and Sal)
 
-
 //loops through products to display on page 
 for (let i = 0; i < products.length; i++) {
     document.querySelector('.main').innerHTML += `

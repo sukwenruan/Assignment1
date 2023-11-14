@@ -1,6 +1,5 @@
 //invoice.js
 
-
 // Get the URL
 let params = (new URL(document.location)).searchParams;
 
@@ -78,4 +77,3 @@ document.querySelector('#totalCells').innerHTML += `
         <td>$${total.toFixed(2)}</td>
     </tr>
 `;
-
