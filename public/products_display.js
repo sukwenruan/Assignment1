@@ -15,14 +15,14 @@ for (let i = 0; i < products.length; i++) {
 
             <div id="quantity${[i]}_error" style="color: red;"></div>
         <div>
-    `;
+    `; 
 }
 
 //function that validates quantity if it's an integer or not (client-side)
 function isNonNegInt(q, returnErrors = false) {
     errors = []; 
     console.log(typeof(Number(q)))
-    if ((Number(q) !=q) && (q != '')) { 
+    if (isNaN(Number(q)) && (q != "")) { 
         errors.push('Not a number. Please enter a numeric value.');
 
     } else {                

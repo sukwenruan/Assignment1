@@ -105,7 +105,7 @@ app.post("/purchase", function (request, response) {
 function isNonNegInt(q, returnErrors = false) {
     let errors = []; 
     //console.log(typeof(Number(q)))
-    if ((Number(q) !=q) && (q != '')) { 
+    if (isNaN(Number(q)) && (q != "")) { 
         errors.push('Not a number. Please enter a numeric value.');
     } 
     else 
