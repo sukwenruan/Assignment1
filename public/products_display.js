@@ -11,7 +11,7 @@ for (let i = 0; i < products.length; i++) {
             <p style="padding: 7px; margin: 0">Sold: ${products[i].qty_sold}</p>
 
             <label for="quantity_textbox_${i} id="quantity${i}_label" style="padding: 15px;" class="quantity-input">Quantity Desired</label>
-            <input type="text" name="quantity${[i]}" id="quantity_textbox${[i]}" onkeyup="validateTextbox(this)">
+            <input type="text" name="quantity${[i]}" id="quantity_textbox${[i]}" onchange="validateTextbox(this)">
 
             <div id="quantity${[i]}_error" style="color: red;"></div>
         <div>
