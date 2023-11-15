@@ -15,7 +15,7 @@ for (let i = 0; i < products.length; i++) {
 
             <div id="quantity${[i]}_error" style="color: red;"></div>
         <div>
-    `; 
+    `;
 }
 
 //function that validates quantity if it's an integer or not (client-side)
