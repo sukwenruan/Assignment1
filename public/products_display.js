@@ -22,7 +22,7 @@ for (let i = 0; i < products.length; i++) {
 function isNonNegInt(q, returnErrors = false) {
     errors = []; 
     console.log(typeof(Number(q)))
-    if (isNaN(Number(q)) && (q != "")) { 
+    if ((Number(q) !=q) && (q != '')) { 
         errors.push('Not a number. Please enter a numeric value.');
 
     } else {                
