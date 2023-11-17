@@ -1,4 +1,4 @@
-//invoice.js
+//invoice.js (referenced Vy and Sal)
 
 // Get the URL
 let params = (new URL(document.location)).searchParams;
