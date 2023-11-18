@@ -13,7 +13,7 @@ const qs = require('querystring');
 app.all('*', function (request, response, next) {
    console.log(request.method + ' to ' + request.path);
    next();
-});
+}); 
 
 /* Import data from a JSON file containing information about products
 __dirname represents the directory of the current module (where server.js is located)
